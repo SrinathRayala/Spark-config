@@ -17,6 +17,9 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 export SPARK_HOME=/opt/spark
 export PATH=$PATH:$SPARK_HOME/bin
 
+export NIFI_HOME=/opt/nifi
+export PATH=$PATH:$NIFI_HOME/bin
+
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-0.el7_8.x86_64
 export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
 export PYSPARK_PYTHON=python3
